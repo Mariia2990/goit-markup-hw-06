@@ -77,6 +77,19 @@ input {
     margin-bottom: 8px;
 }
 
+@media screen and (max-width: 768px) {
+    .tittle {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        margin-bottom: 8px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .tittle {
         font-weight: 700;
@@ -255,7 +268,7 @@ input {
 .contacts {
     background-color: #ffffff;
     font-style: normal;
-    padding-left: 332px;
+    /* padding-left: 332px; */
     
 }
 
@@ -295,8 +308,6 @@ input {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    padding-top: 16px;
-    padding-bottom: 16px;
     }
 }
 
