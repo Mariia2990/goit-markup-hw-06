@@ -69,12 +69,14 @@ input {
 }
 
 .tittle {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
 }
 
 .text {
@@ -342,7 +344,7 @@ input {
     margin: 0 auto;
 }
 
-.page-tittle {
+.page-tittle  {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -352,6 +354,7 @@ input {
     max-width: 216px;
     margin: 0 auto;
     margin-bottom: 72px;
+        
 }
 
 .solutions-container {
@@ -918,18 +921,6 @@ margin-left: 16px;
 
 
 /* --------------------Media ----------------- */
-@media screen and (max-width: 767px) {
-.tittle {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
-    display: flex;
-    justify-content: center;
-    }
-}
 
 @media screen and (min-width: 768px) {
 .tittle {
@@ -940,6 +931,7 @@ margin-left: 16px;
     color: #2e2f42;
     margin-bottom: 8px;
     display: flex;
+    justify-content: start;
     }
 }
 
@@ -948,6 +940,9 @@ margin-left: 16px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    justify-content: start;
     }
 }
 
@@ -982,7 +977,7 @@ margin-left: 16px;
     }
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
 .menu-container { 
     display: flex;
     flex-direction: row;
@@ -1055,12 +1050,6 @@ margin-left: 16px;
     }
 }
 
-@media (min-resolution: 192dpi) {
-.images-people {
-    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
-    }
-}
-
 @media screen and (min-width: 768px) {
 .page-tittle {
     margin-bottom: 36px;
@@ -1073,12 +1062,7 @@ margin-left: 16px;
 @media screen and (min-width: 1158px) {
 .page-tittle {
     font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
     color: #fff;
-    max-width: 496px;
-    margin: 0 auto;
     margin-bottom: 48px;
     }
 }
@@ -1178,7 +1162,6 @@ margin-left: 16px;
     background-color: #fff;
 }
 }
-
 
 @media screen and (min-width: 768px) {
 .portfolio {
