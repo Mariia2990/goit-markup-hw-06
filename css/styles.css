@@ -238,11 +238,11 @@ input {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-header .is-open {
+/* .menu-header .is-open {
     visibility: visible;
     opacity: 1;
     pointer-events: auto;
-}
+} */
 
 .menu-header-container {
     margin-top: 72px;
@@ -404,11 +404,11 @@ input {
 } 
 
 
-/* .modal-overlay-contacts.is-open {
+.is-open {
     visibility: visible;
     opacity: 1;
     pointer-events: auto;
-} */
+}
 
 .modal-container {
     position: absolute;
